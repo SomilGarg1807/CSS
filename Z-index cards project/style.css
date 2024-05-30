@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.card-container{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.card-1{
+    height: 450px;
+    width: 350px;
+    /* border: 2px solid coral; */
+    background-color: white;
+    box-shadow: 0px 0px 12px 2px white;
+    padding: 20px 0 0 0;
+    position: absolute;
+    /* transition: scale(1);
+    transition: all 0.2s ease-in-out; */
+    z-index: 3;
+}
+
+.card-1 .top{
+    width: 100%;
+    height: 80%;
+    /* padding: 20px 30px; */
+}
+
+.card-1 .top .pic{
+    background-image: url('https://images.firstpost.com/wp-content/uploads/2015/12/Yo-Yo-Honey-SIngh-facebook.png');
+    height: 100%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: left -110px center;
+    background-size: cover;
+    margin: auto;
+}
+
+.card-1 .foot{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-1 .foot .names{
+    text-align: center;
+    font-size:larger;
+    font-weight: bold;
+    background-color:rgb(26, 102, 128);
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+}
+
+.card-1:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 5px white;
+    transition: scale(1.1);
+}
+
+/* CARD-2 */
+.card-2{
+    height: 450px;
+    width: 350px;
+    /* border: 2px solid coral; */
+    background-color: white;
+    box-shadow: 0px 0px 12px 2px white;
+    padding: 20px 0 0 0;
+    position: absolute;
+    /* transition: scale(1);
+    transition: all 0.2s ease-in-out; */
+    z-index: 2;
+    left: 680px;
+    top: 60px;
+}
+
+.card-2 .top{
+    width: 100%;
+    height: 80%;
+    /* padding: 20px 30px; */
+}
+
+.card-2 .top .pic{
+    background-image: url('https://teqip.in/wp-content/uploads/2022/12/Babbu-Maan-go-profile-1-1.jpg');
+    height: 100%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+.card-2 .foot{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-2 .foot .names{
+    text-align: center;
+    font-size:larger;
+    font-weight: bold;
+    background-color:rgb(26, 102, 128);
+    font-size: 20px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+}
+
+.card-2:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 5px white;
+    /* transition: scale(1.1); */
+    z-index: 2;
+    left: 920px;
+}
+
+/* CARD-3 */
+.card-3{
+    height: 450px;
+    width: 350px;
+    /* border: 2px solid coral; */
+    background-color: white;
+    box-shadow: 0px 0px 12px 2px white;
+    padding: 20px 0 0 0;
+    position: absolute;
+    /* transition: scale(1);
+    transition: all 0.2s ease-in-out; */
+    z-index: 1;
+    top:20px;
+    left: 810px;
+}
+
+.card-3 .top{
+    width: 100%;
+    height: 80%;
+    /* padding: 20px 30px; */
+}
+
+.card-3 .top .pic{
+    background-image: url('https://files.prokerala.com/news/photos/imgs/1024/rapper-dino-james-890189.jpg');
+    height: 100%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: left -50px center;
+    background-size: cover;
+    margin: auto;
+}
+
+.card-3 .foot{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-3 .foot .names{
+    text-align: center;
+    font-size:larger;
+    font-weight: bold;
+    background-color:rgb(26, 102, 128);
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+}
+
+.card-3:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 5px white;
+    /* transition: scale(1.1); */
+    z-index: 1;
+    left: 1020px;
+}

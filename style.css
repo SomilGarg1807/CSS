@@ -1,0 +1,65 @@
+/* section span{
+    background-color: salmon;
+}
+
+section > div {
+    background-color: aquamarine;
+} */
+
+/* span + div {
+    background-color: forestgreen;
+} */
+
+/* span + div, div ~ blockquote, #div3 + div{
+    background-color: burlywood;
+} */
+
+a:link{
+    color: orange;
+}
+
+a:visited{
+    color: orangered;
+}
+
+a:active{
+    color: cadetblue;
+}
+
+em:hover{
+    padding: 2rem 2rem;
+    background-color: bisque;
+    color:chocolate;
+    border-radius: 0.5rem;
+    border-color: black;
+    border-width: 1px;
+    border: solid;
+}
+
+/* article :first-child{
+    color: orchid;
+}
+
+article :last-child{
+    color: crimson;
+}
+
+article :nth-child(4){
+    color: aqua;
+}
+
+article :nth-child(even){
+    color: coral;
+} */
+
+article div:first-of-type{
+    color:cornflowerblue;
+}
+
+article span:last-of-type{
+    color: darkgoldenrod;
+}
+
+article>blockquote:nth-of-type(odd){
+    color: deeppink;
+}
