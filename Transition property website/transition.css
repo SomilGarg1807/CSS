@@ -19,6 +19,7 @@ body{
     border: 2px solid white;
     box-shadow: 0px 0px 15px 4px gray;
     overflow: hidden;
+    position: relative;
 }
 
 .pic{
@@ -37,7 +38,7 @@ body{
 }
 
 .frame:hover>.pic{
-    scale: 0.95;
+    scale: 1.35;
 }
 
 .frame .content{
@@ -45,11 +46,10 @@ body{
     height: 100%;
     backdrop-filter: blur(4px);
     position: absolute;
-    /* right: 0px; */
+    right: -300px;
+    top: 0;
     padding: 10px;
-    /* background-color:cornsilk; */
-    visibility:hidden;
-    transition-property:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
 }
 
 .content h2{
@@ -65,9 +65,7 @@ body{
     font-weight: 700;
 }
 
-.pic:hover>.content{
-    visibility: visible;
+.frame:hover>.content{
     right: 0px;
     transition-delay: 0.2s;
 }
-
