@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    /* height: auto; */
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.top{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/4391724.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scale: 1;
+    overflow: hidden;
+    animation: top 2s ease-in-out infinite alternate running;
+}
+
+@keyframes top {
+    from{
+        scale: 1.0;
+    }
+    to{
+        scale: 1.2;
+    }
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    /* background-color: black; */
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    top: 0;
+    position: fixed;
+}
+
+nav .logo{
+    background-image: url('https://i.pinimg.com/originals/41/ff/08/41ff08e482a4314896060bebbe40c46e.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width: 95px;
+    cursor: pointer;
+}
+
+nav .links{
+    font-size: 22px;
+}
+
+nav .links a{
+    text-decoration: none;
+    margin: 25px;
+    padding: 15px;
+    font-weight: 700;
+    color:lightgreen;
+}
+
+nav .links a:hover{
+    background-color:#515151;
+    border-radius: 5px;
+}
+
+.middle{
+    width: 100%;   
+    background-color: #515151;
+    position: relative;
+    padding: 70px 150px;
+}
+
+article{
+    background-color: lightpink;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+article h2{
+    font-size: 35px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+article p{
+    font-size: 22px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.middle button{
+    padding: 18px;
+    margin-top: 25px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(52, 167, 206);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    scale: 1;
+}
+
+.middle button:hover{
+    scale: 1.1;
+}
+
+footer{
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.chat{
+    height: 70px;
+    width: 180px;
+    border-radius: 35px 0 0 35px;
+    background-color: brown;
+    text-align: center;
+    padding: 7px;
+    margin-right: 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+    transition: all 0.2s ease-in-out;
+    scale: 1;
+}
+
+.chat:hover{
+    scale: 1.2;
+}
