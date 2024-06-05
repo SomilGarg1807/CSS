@@ -52,6 +52,11 @@ nav a{
     cursor: pointer;
 }
 
+
+nav a:hover{
+    color: rgb(31, 139, 175);
+}
+
 .logo{
     margin-left: -80px;
 }
@@ -66,7 +71,7 @@ nav a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 100px;
+    padding: 70px;
 }
 
 .hero-section img{
@@ -102,4 +107,73 @@ nav a{
 .hero-section button:hover{
     background-color: black;
     cursor: pointer;
+}
+
+.mid-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.immediate-down{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.immediate-down .left{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.immediate-down .left img{
+    width: 95%;
+    height: 70%;
+}
+
+.immediate-down .right{
+    width: 55%;
+    height: 80%;
+    padding: 50px 70px;
+}
+
+.immediate-down h2{
+    color: rgb(51, 49, 49);
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.immediate-down p{
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    margin: 30px 0 10px 0;
+}
+
+.immediate-down .list-items{
+    display: flex;
+}
+
+.immediate-down ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    gap: 10px;
+}
+
+.immediate-down ul li{
+    color: rgb(73, 71, 71);
+    font-size: 20px;
+}
+
+section .right img{
+    height: 60px;
 }
