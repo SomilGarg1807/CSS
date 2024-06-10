@@ -73,7 +73,7 @@ nav a:hover{
 .hero-section h1{
     font-weight: 400;
     font-size: 55px;
-    color: rgb(29, 25, 25);
+    color: rgb(75, 74, 74);
     font-family: "Roboto", sans-serif;
     padding: 10px;
 }
@@ -410,6 +410,20 @@ footer .upper{
 footer .upper .zerodha{
     display: flex;
     flex-direction: column;
+    gap: 22px;
+}
+
+footer .upper .zerodha .media i{
+    font-size: 22px;
+    color: rgb(117, 115, 115);
+    margin: 5px 15px 13px 0px; 
+}
+
+footer .upper .zerodha .media hr{
+    height: 1px;
+    border: none;
+    top: 10px;
+    background-color: rgb(228, 226, 226);
 }
 
 footer .heading h2{
@@ -425,4 +439,34 @@ footer .heading ul li{
     font-size: 18px;
     margin-bottom: 13px;
     font-weight: 450;
+}
+
+footer .lower p{
+    color: rgb(158, 157, 157);
+    font-size: small;
+    line-height: 20px;
+    align-self: justify;
+}
+
+footer .lower p a{
+    text-decoration: none;
+}
+
+footer .lower p a:hover{
+    color: rgb(36, 35, 35);
+}
+
+footer .lower .links{
+    margin: 20px 40px 20px 80px;
+    display: flex;
+    gap: 25px;
+}
+
+footer .lower .links a{
+    text-decoration: none;
+    color: rgb(158, 157, 157);
+}
+
+footer .lower .links a:hover{
+    color: #4c74e2
 }
